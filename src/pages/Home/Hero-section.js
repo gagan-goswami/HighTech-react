@@ -16,7 +16,7 @@ function Hero() {
     animateOut: "fadeOut",
     autoplayHoverPause: true,
     autoplayTimeout: 4000,
-    smartSpeed: 2000,
+    smartSpeed: 1000,
     dots: true,
     nav: true,
     navText: [
