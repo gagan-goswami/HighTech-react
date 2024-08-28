@@ -33,8 +33,8 @@ const TestimonialSection = () => {
           smartSpeed={1000}
           nav={true}
           navText={[
-            '<span class="custom-prev-icon">🡸</span>', // Custom previous icon
-            '<span class="custom-next-icon">🡺</span>', // Custom next icon
+            '<span class="custom-prev-icon">←</span>', // Custom previous icon
+            '<span class="custom-next-icon">→</span>', // Custom next icon
           ]}
           navClass={["owl-prev", "owl-next"]}
           responsive={{
