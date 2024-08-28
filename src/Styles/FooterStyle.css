@@ -1,0 +1,160 @@
+/*===== footer-section-start ======*/
+
+.footer {
+    padding: 90px 0px 0px 0px;
+    background-color: var(--dark);
+}
+
+.footer .footer-item {
+    margin-bottom: 25px;
+    padding: 0px 20px;
+}
+
+.footer .footer-item .footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer .footer-item .navbar-brand h2 {
+    color: var(--white);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer .footer-item .navbar-brand span {
+    color: var(--Secondary-color);
+}
+
+.footer .footer-item p {
+    color: var(--white);
+}
+
+.footer .footer-item h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--Secondary-color);
+    margin-bottom: 20px;
+}
+
+.footer .footer-social {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer .footer-social li {
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 5px 5px;
+    background-color: var(--white);
+    transition: ease-in-out 0.5s;
+    text-align: center;
+}
+
+.footer .footer-social li a {
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.footer .footer-social li:hover {
+    background-color: var(--primary-color);
+    transition: ease-in-out 0.5s;
+}
+
+.footer .footer-social li:hover a {
+    color: var(--white);
+    transition: ease-in-out 0.5s;
+}
+
+.footer .footer-item .page-link,
+.Quick-links,
+.service-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .footer-item .page-link li,
+.Quick-links li,
+.service-links li {
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+
+.footer .footer-item .page-link li .svg-inline--fa,
+.Quick-links li .svg-inline--fa,
+.service-links li .svg-inline--fa {
+    margin-right: 5px;
+    color: var(--Secondary-color);
+}
+
+.service-links li {
+    margin: 20px 0px;
+}
+
+.footer .footer-item .page-link li a,
+.Quick-links li a,
+.service-links li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer .footer-item .page-link li:hover a,
+.Quick-links li:hover a,
+.service-links li:hover a {
+    color: var(--white);
+    text-decoration: none;
+    padding-left: 3px;
+    transition: 0.5s;
+}
+
+.footer .copy-right {
+    text-align: center;
+    margin-top: 50px;
+    color: var(--white);
+    border-top: 1px solid rgba(255, 255, 255, 0.416);
+    padding: 20px 0px;
+}
+
+.footer .copy-right p {
+    font-size: 16px;
+    color: var(--white);
+    margin: 0;
+}
+
+.footer .top-button .top {
+    background-color: var(--Secondary-color);
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    right: 1em;
+    bottom: 0.2em;
+    position: fixed;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    z-index: 9999;
+    margin-bottom: 10px;
+}
+
+.footer .top-button .top {
+    animation: spooky 2s alternate infinite linear;
+    display: inline-block;
+}
+
+@keyframes spooky {
+    from {
+        transform: translatey(0.15em) scaley(0.95);
+    }
+
+    to {
+        transform: translatey(-0.15em);
+    }
+}
+
+
+/*===== footer-section-end ======*/
