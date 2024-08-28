@@ -20,13 +20,8 @@ function Hero() {
     dots: true,
     nav: true,
     navText: [
-<<<<<<< HEAD
       '<span class="custom-prev-icon">←</span>', // Custom previous icon
       '<span class="custom-next-icon">→</span>', // Custom next icon
-=======
-      '<span class="custom-prev-icon">⬅</span>', // Custom previous icon
-      '<span class="custom-next-icon">➡</span>', // Custom next icon
->>>>>>> 82422eb8588415befe0d99f32c4d0c9e9d059e71
     ],
     navClass: ["owl-prev", "owl-next"],
     responsive: {
