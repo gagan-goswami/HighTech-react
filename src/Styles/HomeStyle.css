@@ -101,20 +101,20 @@
     top: 50%;
     bottom: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-section .owl-carousel .owl-nav button.owl-next span {
-    padding-left: 3px;
     color: var(--white);
     font-size: 36px;
+    margin-bottom: 3px;
 }
 
 .hero-section .owl-carousel .owl-nav button.owl-prev span {
-    padding-right: 3px;
     color: var(--white);
     font-size: 36px;
+    margin-bottom: 3px;
 }
 
 .hero-section .owl-carousel .owl-nav button.owl-prev {
@@ -130,8 +130,8 @@
     top: 50%;
     bottom: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .hero-section .owl-dots {
@@ -830,15 +830,15 @@
 }
 
 .testimonial-section .owl-carousel .owl-nav button.owl-next span {
-    padding-right: 3px;
     color: var(--white);
     font-size: 36px;
+    margin-bottom: 4px;
 }
 
 .testimonial-section .owl-carousel .owl-nav button.owl-prev span {
-    padding-right: 3px;
     color: var(--white);
     font-size: 36px;
+    margin-bottom: 4px;
 }
 
 .testimonial-section .owl-carousel .owl-nav button.owl-prev {
