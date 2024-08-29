@@ -53,7 +53,7 @@ const TeamSection = () => {
           <div
             className="slide-item"
             data-aos="fade-left"
-            data-aos-duration="1500"
+            data-aos-duration={1000}
           >
             <div className="our-team">
               <div className="pic">
@@ -90,7 +90,7 @@ const TeamSection = () => {
           <div
             className="slide-item"
             data-aos="fade-left"
-            data-aos-duration="1500"
+            data-aos-duration={1000}
           >
             <div className="our-team">
               <div className="pic">
@@ -127,7 +127,7 @@ const TeamSection = () => {
           <div
             className="slide-item"
             data-aos="fade-left"
-            data-aos-duration="1500"
+            data-aos-duration={1000}
           >
             <div className="our-team">
               <div className="pic">
@@ -168,7 +168,7 @@ const TeamSection = () => {
           <div
             className="slide-item"
             data-aos="fade-left"
-            data-aos-duration="1500"
+            data-aos-duration={1000}
           >
             <div className="our-team">
               <div className="pic">

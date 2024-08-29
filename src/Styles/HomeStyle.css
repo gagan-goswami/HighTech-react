@@ -105,15 +105,16 @@
     justify-content: center;
 }
 
-.hero-section .owl-carousel .owl-nav button.owl-next .svg-inline--fa {
+.hero-section .owl-carousel .owl-nav button.owl-next span {
     padding-left: 3px;
     color: var(--white);
-    font-size: 50px;
+    font-size: 36px;
 }
 
-.hero-section .owl-carousel .owl-nav button.owl-prev .svg-inline--fa {
+.hero-section .owl-carousel .owl-nav button.owl-prev span {
     padding-right: 3px;
     color: var(--white);
+    font-size: 36px;
 }
 
 .hero-section .owl-carousel .owl-nav button.owl-prev {
@@ -829,11 +830,15 @@
 }
 
 .testimonial-section .owl-carousel .owl-nav button.owl-next span {
-    font-size: 20px;
+    padding-right: 3px;
+    color: var(--white);
+    font-size: 36px;
 }
 
 .testimonial-section .owl-carousel .owl-nav button.owl-prev span {
-    font-size: 20px;
+    padding-right: 3px;
+    color: var(--white);
+    font-size: 36px;
 }
 
 .testimonial-section .owl-carousel .owl-nav button.owl-prev {

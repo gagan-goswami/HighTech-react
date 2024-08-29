@@ -15,13 +15,13 @@ function Hero() {
     animateIn: "fadeIn",
     animateOut: "fadeOut",
     autoplayHoverPause: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 2000,
     smartSpeed: 1000,
     dots: true,
     nav: true,
     navText: [
-      '<span class="custom-prev-icon">←</span>', // Custom previous icon
-      '<span class="custom-next-icon">→</span>', // Custom next icon
+      '<span class="custom-prev-icon">&#8672;</span>', // Custom previous icon
+      '<span class="custom-next-icon">&#8674;</span>', // Custom next icon
     ],
     navClass: ["owl-prev", "owl-next"],
     responsive: {
@@ -43,13 +43,13 @@ function Hero() {
           >
             <Container>
               <div className="content">
-                <span data-aos="fade-left" data-aos-duration={2000}>
+                <span data-aos="fade-left" data-aos-duration={1000}>
                   Best IT Solutions
                 </span>
-                <h2 data-aos="fade-left" data-aos-duration={2000}>
+                <h2 data-aos="fade-left" data-aos-duration={1000}>
                   An Innovative IT Solutions Agency
                 </h2>
-                <p data-aos="fade-left" data-aos-duration={2000}>
+                <p data-aos="fade-left" data-aos-duration={1000}>
                   Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut
                   interdum. Pellentesque aliquam dolor eget urna ultricies
                   tincidunt.
@@ -57,7 +57,7 @@ function Hero() {
                 <div
                   className="booking-btn"
                   data-aos="fade-left"
-                  data-aos-duration={2000}
+                  data-aos-duration={1000}
                 >
                   <Link to="/" className="read">
                     READ MORE
@@ -66,7 +66,7 @@ function Hero() {
                     to="/"
                     className="contactbtn"
                     data-aos="fade-left"
-                    data-aos-duration={2000}
+                    data-aos-duration={1000}
                   >
                     CONTACT US
                   </Link>
@@ -84,10 +84,10 @@ function Hero() {
           >
             <Container>
               <div className="content">
-                <span data-aos="fade-up" data-aos-duration={3000}>
+                <span data-aos="fade-up" data-aos-duration={1000}>
                   Best IT Solutions
                 </span>
-                <h2 data-aos="fade-left" data-aos-duration={3000}>
+                <h2 data-aos="fade-left" data-aos-duration={1000}>
                   Quality Services You Really Need!
                 </h2>
                 <p>

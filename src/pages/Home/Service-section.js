@@ -77,7 +77,7 @@ const ServicesSection = () => {
               <div
                 className="service-item"
                 data-aos={service.animation}
-                data-aos-duration="2000"
+                data-aos-duration={1000}
               >
                 <div className="service-icon">
                   <FontAwesomeIcon icon={service.icon} />

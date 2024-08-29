@@ -37,7 +37,7 @@ function Footer() {
   return (
     <>
       {/* == footer-section-start == */}
-      <footer className="footer" data-aos="zoom-in" data-aos-duration={1500}>
+      <footer className="footer" data-aos="zoom-in" data-aos-duration={500}>
         <Container>
           <Row>
             <Col lg={3} md={6}>

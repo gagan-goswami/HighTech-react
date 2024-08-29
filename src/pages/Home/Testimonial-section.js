@@ -33,8 +33,8 @@ const TestimonialSection = () => {
           smartSpeed={1000}
           nav={true}
           navText={[
-            '<span class="custom-prev-icon">←</span>', // Custom previous icon
-            '<span class="custom-next-icon">→</span>', // Custom next icon
+            '<span class="custom-prev-icon">&#8672;</span>', // Custom previous icon
+            '<span class="custom-next-icon">&#8674;</span>', // Custom next icon
           ]}
           navClass={["owl-prev", "owl-next"]}
           responsive={{
@@ -53,7 +53,7 @@ const TestimonialSection = () => {
             <div
               className="testimonial-item"
               data-aos="fade-left"
-              data-aos-duration="1500"
+              data-aos-duration="1000"
             >
               <p>
                 <FontAwesomeIcon icon={faQuoteLeft} aria-hidden="true" /> Lorem
@@ -78,7 +78,7 @@ const TestimonialSection = () => {
             <div
               className="testimonial-item"
               data-aos="fade-left"
-              data-aos-duration="1500"
+              data-aos-duration="1000"
             >
               <p>
                 <FontAwesomeIcon icon={faQuoteLeft} aria-hidden="true" /> Lorem
@@ -103,7 +103,7 @@ const TestimonialSection = () => {
             <div
               className="testimonial-item"
               data-aos="fade-left"
-              data-aos-duration="1500"
+              data-aos-duration="1000"
             >
               <p>
                 <FontAwesomeIcon icon={faQuoteLeft} aria-hidden="true" /> Lorem
@@ -128,7 +128,7 @@ const TestimonialSection = () => {
             <div
               className="testimonial-item"
               data-aos="fade-left"
-              data-aos-duration="1500"
+              data-aos-duration="1000"
             >
               <p>
                 <FontAwesomeIcon icon={faQuoteLeft} aria-hidden="true" /> Lorem

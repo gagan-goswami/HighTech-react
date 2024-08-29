@@ -19,7 +19,7 @@ const ContactSection = () => {
             <div
               className="get-in-touch-item"
               data-aos="fade-down-right"
-              data-aos-duration="1500"
+              data-aos-duration={1000}
             >
               <div className="google-map">
                 <iframe
@@ -37,7 +37,7 @@ const ContactSection = () => {
             <div
               className="get-in-touch-item"
               data-aos="fade-down-left"
-              data-aos-duration="1500"
+              data-aos-duration={1000}
             >
               <Form onSubmit={handleSubmit}>
                 <Form.Group controlId="formName">

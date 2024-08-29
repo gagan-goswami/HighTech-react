@@ -21,7 +21,7 @@ const BlogSection = () => {
         </div>
         <Row>
           <Col lg={4} md={6}>
-            <div className="blog" data-aos="fade-left" data-aos-duration="1500">
+            <div className="blog" data-aos="fade-left" data-aos-duration={1000}>
               <Card className="border-0">
                 <Card.Img
                   variant="top"
@@ -62,7 +62,7 @@ const BlogSection = () => {
             </div>
           </Col>
           <Col lg={4} md={6}>
-            <div className="blog" data-aos="fade-left" data-aos-duration="1500">
+            <div className="blog" data-aos="fade-left" data-aos-duration={1000}>
               <Card className="border-0">
                 <Card.Img
                   variant="top"
@@ -103,7 +103,7 @@ const BlogSection = () => {
             </div>
           </Col>
           <Col lg={4} md={6}>
-            <div className="blog" data-aos="fade-left" data-aos-duration="1500">
+            <div className="blog" data-aos="fade-left" data-aos-duration={1000}>
               <Card className="border-0">
                 <Card.Img
                   variant="top"

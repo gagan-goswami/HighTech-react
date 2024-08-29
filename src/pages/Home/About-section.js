@@ -15,7 +15,7 @@ function About() {
               <div
                 className="about-item"
                 data-aos="fade-right"
-                data-aos-duration={2000}
+                data-aos-duration={1000}
               >
                 <div className="about-image">
                   <img
@@ -38,7 +38,7 @@ function About() {
               <div
                 className="about-item"
                 data-aos="fade-right"
-                data-aos-duration={2000}
+                data-aos-duration={1000}
               >
                 <div className="about-content">
                   <span>About Us</span>

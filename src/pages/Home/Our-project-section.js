@@ -67,7 +67,7 @@ const OurProjects = () => {
               <div
                 className="project-item"
                 data-aos={project.animation}
-                data-aos-duration="1500"
+                data-aos-duration={1000}
               >
                 <div className="project-image">
                   <img

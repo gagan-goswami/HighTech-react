@@ -12,7 +12,7 @@ function Fact() {
             <div
               className="fact-item"
               data-aos="fade-left"
-              data-aos-duration={2000}
+              data-aos-duration={1000}
             >
               <div className="fact-content">
                 <Counter endValue={999} duration={5000} />{" "}
@@ -23,7 +23,7 @@ function Fact() {
             </div>
           </Col>
 
-          <Col lg={3} md={6} data-aos="fade-left" data-aos-duration={2000}>
+          <Col lg={3} md={6} data-aos="fade-left" data-aos-duration={1000}>
             <div className="fact-item">
               <div className="fact-content">
                 <Counter endValue={1200} duration={5000} />{" "}
@@ -38,7 +38,7 @@ function Fact() {
             <div
               className="fact-item"
               data-aos="fade-left"
-              data-aos-duration={2000}
+              data-aos-duration={1000}
             >
               <div className="fact-content">
                 <Counter endValue={400} duration={5000} />{" "}
@@ -53,7 +53,7 @@ function Fact() {
             <div
               className="fact-item"
               data-aos="fade-left"
-              data-aos-duration={2000}
+              data-aos-duration={1000}
             >
               <div className="fact-content">
                 <Counter endValue={5} duration={5000} />{" "}
